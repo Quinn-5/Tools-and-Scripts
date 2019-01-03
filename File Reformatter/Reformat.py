@@ -1,6 +1,5 @@
 with open('primes1.txt') as f:
     Primes = f.readlines()
-    # Primes = [x.strip() for x in Primes]
 print(Primes)
 
 length = Primes.__len__()
