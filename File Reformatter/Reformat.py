@@ -38,8 +38,9 @@ temp = open('primes.txt', 'w')
 temp.write('')
 
 with open('primes.txt', 'a') as f:
-    for item in Primes:
-        f.write(item)
+    for items in Primes:
+        for item in items:
+            f.write(item)
 
 Print(Primes)
 
