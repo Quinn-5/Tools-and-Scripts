@@ -53,7 +53,7 @@ def  main():
     
     with open('primes.txt', 'a') as f:
         for items in Primes:
-            f.write(item)
+            f.write(items)
 
 
 
